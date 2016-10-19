@@ -53,7 +53,7 @@
       </div>
     <div class="scroll-arrow"><span>SCROLL DOWN</span></div>
     </div>
-    <div class="content{.section mainImage} has-main-image{.end}" {squarespace.page-id}>
+    <div class="content{.section mainImage} has-main-image{.end}" id="{squarespace.page-id}">
     	<div class="content-inner{.section mainContent} has-content{.end}" data-content-field="main-content">
         <div class="title-desc-wrapper">
           <div class="title-desc-inner" data-collection-id="{id}">
