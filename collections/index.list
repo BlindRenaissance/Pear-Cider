@@ -50,10 +50,11 @@
         <div class="page-title-wrapper"><h1 class="page-title" data-content-field="title">{title}</h1></div>
         <br> <!-- this keeps the inline-blocks from collapsing -->
         <div class="page-desc" data-content-field="description">{.section description}{@}{.end}</div>
+        <squarespace:block-field id="blockField-{title}" columns="12"/>
       </div>
     <div class="scroll-arrow"><span>SCROLL DOWN</span></div>
     </div>
-    <div class="content{.section mainImage} has-main-image{.end}" id="{squarespace.page-id}-NV-Color">
+    <div class="content{.section mainImage} has-main-image{.end}" id="{title}-NV-Color">
     	<div class="content-inner{.section mainContent} has-content{.end}" data-content-field="main-content">
         <div class="title-desc-wrapper">
           <div class="title-desc-inner" data-collection-id="{id}">
