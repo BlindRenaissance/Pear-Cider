@@ -42,7 +42,7 @@
         <div class="title-desc-image content-fill" data-content-field="main-image">
           <img {@|image-meta} data-load="false"/>
           <div class="image-overlay-wrapper">
-          <squarespace:block-field id="blockField-{title}" class="parallaxContent" columns="12"/>
+          <squarespace:block-field id="{title}-blockField" class="parallaxContent" columns="12"/>
           </div>
         </div>
         {.end}
