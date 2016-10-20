@@ -41,7 +41,9 @@
         {.section mainImage}
         <div class="title-desc-image content-fill" data-content-field="main-image">
           <img {@|image-meta} data-load="false"/>
-          <div class="image-overlay-wrapper"></div>
+          <div class="image-overlay-wrapper">
+          <squarespace:block-field id="blockField-{title}" columns="12"/>
+          </div>
         </div>
         {.end}
       {.end}
@@ -50,7 +52,6 @@
         <div class="page-title-wrapper"><h1 class="page-title" data-content-field="title">{title}</h1></div>
         <br> <!-- this keeps the inline-blocks from collapsing -->
         <div class="page-desc" data-content-field="description">{.section description}{@}{.end}</div>
-        <squarespace:block-field id="blockField-{title}" columns="12"/>
       </div>
     <div class="scroll-arrow"><span>SCROLL DOWN</span></div>
     </div>
@@ -61,7 +62,6 @@
             <div class="page-title-wrapper"><h1 class="page-title">{title}</h1></div>
             <br> <!-- this keeps the inline-blocks from collapsing -->
             <div class="page-desc" data-content-field="description">{.section description}{@}{.end}</div>
-            <squarespace:block-field id="blockField-{title}" columns="12"/>
           </div>
         </div>
 	      {mainContent}
