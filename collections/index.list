@@ -40,10 +40,10 @@
       {.or}
         {.section mainImage}
         <div class="title-desc-image content-fill" data-content-field="main-image">
-          <img {@|image-meta} data-load="false"/>
           <div class="image-overlay-wrapper">
           <squarespace:block-field id="{urlId}-blockField" class="parallaxContent" columns="12"/>
           </div>
+          <img {@|image-meta} data-load="false"/>
         </div>
         {.end}
       {.end}
