@@ -40,10 +40,10 @@
       {.or}
         {.section mainImage}
         <div class="title-desc-image content-fill" data-content-field="main-image">
+          <img {@|image-meta} data-load="false"/>
           <div class="image-overlay-wrapper">
           <squarespace:block-field id="{urlId}-blockField" class="parallaxContent" columns="12"/>
           </div>
-          <img {@|image-meta} data-load="false"/>
         </div>
         {.end}
       {.end}
@@ -55,7 +55,7 @@
       </div>
     <div class="scroll-arrow"><span>SCROLL DOWN</span></div>
     </div>
-    <div class="content{.section mainImage} has-main-image{.end}" id="{title}-NV-Color">
+    <div class="content{.section mainImage} has-main-image{.end}" id="{urlId}-NV-Color">
     	<div class="content-inner{.section mainContent} has-content{.end}" data-content-field="main-content">
         <div class="title-desc-wrapper">
           <div class="title-desc-inner" data-collection-id="{id}">
