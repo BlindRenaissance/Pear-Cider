@@ -1,0 +1,33 @@
+.main-nav ul li a span{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.content.has-main-image{
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+#essential-pear-blockField{
+  margin-top:0px;
+}
+
+.parallaxContent{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .parallaxContent{
+  width: 90%;
+  }
+}
+
+.title-nav-wrapper{
+  padding: 0px 80px;
+}
+
+.site-title img{
+  max-height: 170px;
+}
