@@ -31,3 +31,7 @@
 .site-title img{
   max-height: 170px;
 }
+
+#desktopNav .folder .folder-child-wrapper ul.folder-child li{
+  background-color: rgba(0, 0, 0, 0.3);
+}
