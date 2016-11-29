@@ -164,6 +164,7 @@
         </header>
         <section id="content-wrapper" data-content-field="main-content">
           <div class="sqs-cart-dropzone"></div>
+          <div id="sell-points"></div>
           {squarespace.main-content}
           <div class="back-to-top"></div>
         </section>
