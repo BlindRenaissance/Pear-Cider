@@ -35,3 +35,12 @@
 #desktopNav .folder .folder-child-wrapper ul.folder-child li{
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Start Site-Home CSS */
+#sell-points{
+  width: 100%; height: auto; border-style: solid; border-color: #c1d82f;background-color:#c1d82f;text-align: center;
+}
+#sell-points h1{
+  color:#fff;
+}
+/* End Site-Home CSS */
