@@ -225,7 +225,7 @@
         <section id="content-wrapper">
           <div class="sqs-cart-dropzone"></div>
           <div class="content">
-            <div id="sell-points"></div>
+            <div id="sell-points"><h1>100% Pear • Gluten Free • Vegan Friendly • No Added Refined Sugar</h1></div>
             <div class="content-inner" data-content-field="main-content">
             {squarespace.main-content}
             </div>
